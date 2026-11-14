@@ -1,46 +1,46 @@
 # SAATHI — Your Health. Your Identity. Your Control.
 
 <p align="center">
-  <strong>A patient-centric digital healthcare identity and medical records platform.</strong>
+  <strong>A Decentralized, Patient-Centric Digital Healthcare Identity & Medical Records Platform</strong>
   <br />
-  Empowering individuals with secure, accessible, and patient-controlled healthcare information.
+  Secure healthcare information. Patient-controlled access. Intelligent medical report understanding.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Next.js-16-black?logo=next.js" alt="Next.js" />
-  <img src="https://img.shields.io/badge/React-19-61DAFB?logo=react" alt="React" />
-  <img src="https://img.shields.io/badge/TypeScript-Enabled-3178C6?logo=typescript" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Solidity-Smart%20Contracts-363636?logo=solidity" alt="Solidity" />
-  <img src="https://img.shields.io/badge/Network-Ethereum%20Sepolia-627EEA?logo=ethereum" alt="Ethereum" />
-  <img src="https://img.shields.io/badge/AI-Google%20Gemini-8E75B2" alt="Google Gemini" />
-  <img src="https://img.shields.io/badge/Storage-IPFS-65C2CB" alt="IPFS" />
+  <img src="https://img.shields.io/badge/Next.js-16-black?logo=next.js" />
+  <img src="https://img.shields.io/badge/React-19-61DAFB?logo=react" />
+  <img src="https://img.shields.io/badge/TypeScript-Enabled-3178C6?logo=typescript" />
+  <img src="https://img.shields.io/badge/Backend-Pinata%20%7C%20IPFS-65C2CB" />
+  <img src="https://img.shields.io/badge/Blockchain-Ethereum%20Sepolia-627EEA?logo=ethereum" />
+  <img src="https://img.shields.io/badge/AI-Google%20Gemini-8E75B2" />
+  <img src="https://img.shields.io/badge/Encryption-AES--256--GCM-success" />
 </p>
 
 ---
 
-## 🌐 Overview
+## 🌐 About SAATHI
 
-Healthcare information is often fragmented across hospitals, diagnostic laboratories, clinics, and individual records.
+Healthcare information is often fragmented across hospitals, diagnostic laboratories, clinics, and individual medical records.
 
-Patients frequently struggle to access their medical history, share reports securely, and maintain control over who can view their sensitive health information.
+Patients frequently struggle to access their medical history, securely share reports, and maintain control over who can view their sensitive health information.
 
-**SAATHI** aims to address this problem through a unified, patient-centric digital healthcare identity and medical records platform.
+**SAATHI** is a decentralized healthcare identity and medical records platform designed to put patients at the centre of their healthcare journey.
 
-It combines decentralized identity concepts, blockchain-based consent management, encrypted decentralized document storage, and AI-powered medical report explanations.
-
-Instead of treating medical records as isolated documents owned by different institutions, SAATHI places the patient at the centre of healthcare information management.
+By combining decentralized storage, blockchain-based consent management, cryptographic encryption, and AI-powered medical report explanations, SAATHI aims to make healthcare information more secure, accessible, understandable, and patient-controlled.
 
 ### Our Vision
 
-To make healthcare information more accessible, understandable, portable, and controlled by the people it belongs to.
+To create a healthcare ecosystem where individuals can securely manage their medical identity, access their health records, and control how their information is shared.
+
+**Your Health. Your Identity. Your Control.**
 
 ---
 
-## ✨ Key Features
+# ✨ Key Features
 
-### 1. 🪪 Digital Health Identity
+## 1. 🪪 Digital Health Identity
 
-A unified digital healthcare identity designed to help patients manage and verify their healthcare identity.
+A unified digital healthcare identity designed to help patients manage and verify their healthcare information.
 
 - Patient-centric digital identity.
 - Decentralized Identifier (DID) integration.
@@ -48,11 +48,11 @@ A unified digital healthcare identity designed to help patients manage and verif
 - QR-based identity verification.
 - Patient identity management.
 
-### 2. 📁 Secure Medical Records
+## 2. 📁 Secure Medical Records
 
-A centralized interface for managing personal medical documents.
+A unified interface for organizing and accessing medical documents.
 
-Patients can organize and access:
+Supported record categories include:
 
 - Laboratory reports.
 - Prescriptions.
@@ -61,19 +61,40 @@ Patients can organize and access:
 - Diagnostic documents.
 - Other healthcare records.
 
-Features include:
+Features:
 
 - Medical document uploads.
-- Encrypted document storage.
+- Encrypted decentralized storage.
 - Secure document retrieval.
 - Organized medical record management.
 - Patient-friendly report viewing.
 
-### 3. 🔐 Patient-Controlled Consent
+## 3. ☁️ Pinata-Powered Decentralized Backend
+
+**Pinata is SAATHI's primary decentralized document storage backend, powered by IPFS.**
+
+Instead of relying entirely on conventional centralized file storage, SAATHI uses Pinata to store and retrieve encrypted medical documents through the InterPlanetary File System (IPFS).
+
+Key capabilities:
+
+- Decentralized medical document storage.
+- Encrypted file uploads.
+- IPFS content addressing.
+- Secure document retrieval.
+- Server-side Pinata integration.
+- Document pinning and unpinning workflows.
+
+Medical documents are encrypted before being uploaded to IPFS.
+
+Raw medical reports and patient-sensitive information are not intentionally stored as publicly readable IPFS content.
+
+## 4. 🔐 Patient-Controlled Consent Management
 
 Patients should decide who can access their medical information and under what conditions.
 
-SAATHI uses Ethereum smart contracts to support consent management.
+SAATHI uses Ethereum smart contracts to support decentralized consent management.
+
+Features include:
 
 - Scoped access permissions.
 - Provider authorization.
@@ -81,44 +102,29 @@ SAATHI uses Ethereum smart contracts to support consent management.
 - Credential status verification.
 - Time-limited emergency access mechanisms.
 
-The goal is to give patients greater transparency and control over medical information sharing.
+The objective is to give patients greater transparency and control over their healthcare information.
 
-### 4. ☁️ Encrypted Decentralized Storage
-
-SAATHI integrates Pinata and IPFS for decentralized medical document storage.
-
-Security architecture includes:
-
-- AES-256-GCM authenticated encryption.
-- Randomized initialization vectors.
-- Authentication tags.
-- HKDF-SHA256-based document key derivation.
-- Server-side encryption and decryption.
-- Encrypted document retrieval.
-
-**Important:** Medical documents are encrypted before being uploaded to IPFS. The blockchain is not used to store raw medical reports or personally identifiable medical information.
-
-### 5. 🤖 Gemini-Powered Medical Report Summaries
+## 5. 🤖 Gemini-Powered Medical Report Summaries
 
 SAATHI integrates Google's Gemini API to make medical reports easier to understand.
 
-Patients can open an uploaded report and generate an AI-powered explanation.
+Patients can open an uploaded medical report and generate an AI-powered explanation.
 
-The summary interface is designed to provide:
+The system is designed to provide:
 
-- Plain-English report summaries.
+- Plain-English medical report summaries.
 - Important findings.
 - Explanation of medical terminology.
 - Values to discuss with a doctor.
 - Questions patients can ask their healthcare provider.
 
-The AI feature is intended for educational assistance, not medical diagnosis or treatment.
+The purpose is to make complex medical information easier for patients to understand.
 
-### 6. 👨‍👩‍👧 Family & Guardians
+AI-generated explanations are educational and are not a replacement for professional medical advice.
 
-A family-oriented healthcare management interface.
+## 6. 👨‍👩‍👧 Family & Guardians
 
-Designed to support:
+A family-oriented healthcare management interface designed to support:
 
 - Family member management.
 - Guardian relationships.
@@ -127,52 +133,60 @@ Designed to support:
 
 Adult family members retain control over their own healthcare information.
 
-### 7. 🚨 Emergency Access
+## 7. 🚨 Emergency Access
 
 Healthcare emergencies may require access to essential medical information when normal consent workflows are impractical.
 
 SAATHI includes an emergency access mechanism designed around restricted, time-limited permissions and provider authorization.
 
-### 8. 🏥 Hospital Portal
+## 8. 🏥 Hospital Portal
 
-A dedicated provider-facing interface intended to support healthcare provider workflows, identity verification, and authorized medical record access.
+A dedicated provider-facing interface intended to support healthcare provider workflows.
 
----
+Designed to support:
 
-## 🏗️ Technology Stack
-
-SAATHI combines modern web technologies with blockchain infrastructure and AI services.
-
-| Layer | Technology |
-|---|---|
-| Frontend | Next.js 16 |
-| UI Framework | React 19 |
-| Language | TypeScript |
-| Styling | Tailwind CSS |
-| UI Components | shadcn/ui |
-| Animations | Motion |
-| 3D Graphics | React Three Fiber |
-| Backend | Next.js API Routes |
-| Database | Supabase |
-| Authentication | Supabase Auth |
-| Decentralized Storage | IPFS |
-| Storage Provider | Pinata |
-| Encryption | AES-256-GCM |
-| Key Derivation | HKDF-SHA256 |
-| Blockchain | Ethereum |
-| Development Network | Sepolia Testnet |
-| Smart Contracts | Solidity |
-| Contract Framework | Hardhat |
-| Contract Libraries | OpenZeppelin |
-| Blockchain Integration | ethers.js |
-| AI Integration | Google Gemini API |
-| AI SDK | @google/genai |
+- Provider registration.
+- Provider identity verification.
+- Accreditation management.
+- Authorized patient record access.
+- Healthcare information verification.
 
 ---
 
-## 🧠 System Architecture
+# 🏗️ Technology Stack
 
-SAATHI separates patient information management, document storage, authorization, and blockchain-based consent verification.
+SAATHI combines modern web technologies, decentralized infrastructure, blockchain, and artificial intelligence.
+
+| Layer | Technology | Purpose |
+|---|---|---|
+| Frontend | Next.js 16 | Web application |
+| UI Framework | React 19 | User interface |
+| Language | TypeScript | Application development |
+| Styling | Tailwind CSS | UI styling |
+| Components | shadcn/ui | Interface components |
+| Animations | Motion | UI animations |
+| 3D Graphics | React Three Fiber | 3D visual elements |
+| Primary Decentralized Backend | Pinata | Decentralized document storage |
+| Storage Network | IPFS | Content-addressed file storage |
+| Application Backend | Next.js API Routes | Server-side operations |
+| Database | Supabase | Patient profiles and record metadata |
+| Authentication | Supabase Auth | User authentication |
+| Encryption | AES-256-GCM | Document encryption |
+| Key Derivation | HKDF-SHA256 | Encryption key derivation |
+| Blockchain | Ethereum | Decentralized authorization |
+| Network | Sepolia Testnet | Smart contract deployment |
+| Smart Contracts | Solidity | Consent and provider registries |
+| Contract Framework | Hardhat | Smart contract development |
+| Contract Libraries | OpenZeppelin | Smart contract components |
+| Blockchain Integration | ethers.js | Blockchain interaction |
+| AI | Google Gemini | Medical report explanations |
+| AI SDK | @google/genai | Gemini API integration |
+
+---
+
+# 🧠 System Architecture
+
+SAATHI follows a decentralized storage architecture supported by blockchain-based authorization and conventional application services.
 
 ```text
                     PATIENT
@@ -181,64 +195,81 @@ SAATHI separates patient information management, document storage, authorization
               SAATHI WEB APPLICATION
                   Next.js / React
                        |
-          +------------+------------+
-          |            |            |
-          v            v            v
-      SUPABASE      NEXT.JS API   ETHEREUM
-      AUTH & DB       ROUTES       SEPOLIA
-          |            |            |
-          |            |       Smart Contracts
-          |            |            |
-          |            |       +----+------+
-          |            |       |           |
-          |            |       v           v
-          |            |   Provider    Consent
-          |            |   Registry    Registry
-          |            |
-          |       +----+------------------+
-          |       |                       |
-          |       v                       v
-          |   ENCRYPTION              GEMINI API
-          |   AES-256-GCM                 |
-          |       |                      v
-          |       v                 AI REPORT
-          |   PINATA / IPFS         SUMMARIES
-          |       |
-          |       v
-          |   ENCRYPTED
-          |   DOCUMENTS
-          |
-          v
-     RECORD METADATA
-     & PATIENT DATA
+                 NEXT.JS API LAYER
+                       |
+       +---------------+----------------+
+       |               |                |
+       v               v                v
+    PINATA          SUPABASE         ETHEREUM
+    / IPFS          DATABASE          SEPOLIA
+       |               |                |
+       |               |          SMART CONTRACTS
+       |               |                |
+       |               |        +-------+-------+
+       |               |        |               |
+       |               |        v               v
+       |               |     PROVIDER        CONSENT
+       |               |     REGISTRY        REGISTRY
+       |               |
+       |               v
+       |          PATIENT PROFILES
+       |          RECORD METADATA
+       |          AUTHENTICATION
+       |
+       v
+  ENCRYPTED MEDICAL
+     DOCUMENTS
+       |
+       v
+  AUTHORIZED RETRIEVAL
+       |
+       v
+  SERVER-SIDE DECRYPTION
+       |
+       +--------------------+
+                            |
+                            v
+                       GEMINI API
+                            |
+                            v
+                    AI REPORT SUMMARY
 ```
 
-### Data Flow
+## Data Flow
 
-**Medical document workflow:**
+### Medical Document Upload
 
 1. Patient uploads a medical document.
-2. The server validates the upload and authorization.
+2. The Next.js backend validates the request and authorization.
 3. The document is encrypted using AES-256-GCM.
-4. Encrypted document content is uploaded to IPFS through Pinata.
-5. Document metadata and storage references are maintained through Supabase.
-6. Authorized users can retrieve the document through the application.
-7. The server verifies access permissions and decrypts the document when authorized.
+4. The encrypted document is uploaded to Pinata through its API.
+5. IPFS returns a content identifier (CID).
+6. Supabase stores the relevant record metadata and storage reference.
+7. The patient can access the document through SAATHI.
 
-**AI report summarization workflow:**
+### Medical Document Retrieval
 
-1. Patient opens an uploaded medical report.
-2. Patient selects Generate AI Summary.
-3. The application sends a request to the server.
-4. The server verifies authentication, ownership, and authorization.
-5. The encrypted document is retrieved and decrypted.
-6. Authorized report content is processed through the Google Gemini API.
-7. Gemini generates a structured explanation.
-8. The result is displayed inside the medical report interface.
+1. Patient requests an existing medical record.
+2. The server verifies authentication and authorization.
+3. The encrypted document is retrieved from Pinata/IPFS.
+4. The server decrypts the document after successful authorization.
+5. The document is returned to the authorized user.
+
+### Gemini Medical Report Summarization
+
+1. Patient opens a medical report.
+2. Patient clicks **Generate AI Summary**.
+3. The application sends a request to the backend.
+4. The backend verifies patient authentication and document access permissions.
+5. The encrypted report is retrieved from Pinata/IPFS.
+6. The report is decrypted server-side.
+7. Authorized report content is sent to the Gemini API.
+8. Gemini dynamically generates a structured explanation.
+9. The summary is displayed inside the medical report interface.
 
 ---
 
-## ⛓️ Smart Contracts
+# ⛓️ Smart Contracts
 
 SAATHI uses Ethereum Sepolia smart contracts to support decentralized authorization and credential management.
 
@@ -246,9 +277,9 @@ SAATHI uses Ethereum Sepolia smart contracts to support decentralized authorizat
 
 Designed to manage healthcare provider accreditation.
 
-Capabilities include:
+Capabilities:
 
-- Provider registration and accreditation management.
+- Provider registration and accreditation.
 - Provider suspension.
 - Provider reactivation.
 - Provider revocation.
@@ -257,7 +288,7 @@ Capabilities include:
 
 Designed to manage patient consent and delegated access.
 
-Capabilities include:
+Capabilities:
 
 - Structured consent permissions.
 - Scoped access authorization.
@@ -270,80 +301,92 @@ Capabilities include:
 
 Designed to maintain credential status information.
 
-Capabilities include:
+Capabilities:
 
 - Credential hash registration.
 - Credential revocation.
 - Expiry management.
 - Issuer-based authorization.
 
-**Network:** Ethereum Sepolia Testnet
+**Blockchain Network:** Ethereum Sepolia Testnet.
 
-No raw medical reports, diagnoses, or sensitive patient records should be written to the blockchain.
+Raw medical reports, diagnoses, and sensitive patient records are not intended to be stored on-chain.
 
 ---
 
-## 🔒 Security & Privacy
+# 🔒 Security & Privacy
 
-Healthcare information requires a strong privacy-first architecture.
+Healthcare information requires a privacy-first architecture.
 
 SAATHI is designed around the following principles:
 
-- Patient-centric data ownership.
+- Patient-centric information management.
 - Encryption before decentralized storage.
 - Server-side handling of sensitive operations.
 - Explicit authorization checks.
 - Scoped consent permissions.
 - Separation of medical documents and blockchain references.
 - Minimal exposure of personally identifiable information.
-- Secure handling of API credentials.
+- Secure API credential management.
 
-### Important Security Considerations
+### Encryption Architecture
 
-- AES-256-GCM provides authenticated encryption, but security also depends on encryption key management.
-- Encryption secrets must be stored securely and never committed to GitHub.
-- Gemini API keys and Pinata JWT credentials must remain server-side.
-- IPFS content identifiers should not expose patient identity.
-- Blockchain transactions should contain only appropriate hashes, permissions, or credential references.
-- Access revocation must be enforced by the application and authorization layer.
+SAATHI implements:
 
-SAATHI is an evolving project. Its security architecture requires independent security testing before real-world clinical deployment.
+- AES-256-GCM authenticated encryption.
+- Random 96-bit initialization vectors.
+- Authentication tags.
+- HKDF-SHA256-based document key derivation.
+- Server-side encryption and decryption.
+
+Security also depends on proper encryption key storage, backup, recovery, rotation, and access management.
+
+### Privacy Considerations
+
+- Pinata JWT credentials remain server-side.
+- Gemini API keys remain server-side.
+- Supabase service-role credentials must never be exposed to browsers.
+- Patient-sensitive information should not be placed in public blockchain transactions.
+- IPFS content identifiers should not reveal patient identity.
+- Unauthorized users must not be able to retrieve or decrypt medical documents.
+
+SAATHI is an evolving project and requires independent security assessment before real-world clinical deployment.
 
 ---
 
-## 🖥️ Application Modules
+# 🖥️ Application Modules
 
-| Module | Purpose |
+| Module | Description |
 |---|---|
-| Dashboard | Patient overview |
-| Digital Health ID | Identity management and verification |
+| Dashboard | Patient healthcare overview |
+| Digital Health ID | Patient identity management |
 | Medical Records | Medical document repository |
-| Gemini Report Summary | AI-powered report explanations |
+| Gemini AI Summary | AI-powered report explanations |
 | Access & Consent | Patient-controlled permissions |
 | Family & Guardians | Family healthcare management |
 | Emergency Access | Restricted emergency authorization |
-| Hospital Portal | Provider-facing workflows |
+| Hospital Portal | Provider-facing interface |
 | Settings | Account and application configuration |
 
 ---
 
-## ⚙️ Getting Started
+# ⚙️ Getting Started
 
 Follow these steps to run SAATHI locally.
 
-### Prerequisites
+## Prerequisites
 
 Install:
 
 - Node.js 20 or later.
 - npm.
 - Git.
-- A Supabase project.
-- A Pinata account.
-- A Google Gemini API key.
+- Supabase account.
+- Pinata account.
+- Google Gemini API key.
 - MetaMask or another compatible Ethereum wallet.
 
-### 1. Clone the Repository
+## 1. Clone the Repository
 
 ```bash
 git clone https://github.com/adityakumarsingh1682006-debug/Saathi.git
@@ -351,17 +394,15 @@ git clone https://github.com/adityakumarsingh1682006-debug/Saathi.git
 cd Saathi
 ```
 
-### 2. Install Dependencies
+## 2. Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 3. Configure Environment Variables
+## 3. Configure Environment Variables
 
 Create a `.env.local` file in the project root.
-
-Add the following configuration:
 
 ```env
 # Google Gemini
@@ -373,7 +414,7 @@ NEXT_PUBLIC_SUPABASE_URL=
 NEXT_PUBLIC_SUPABASE_ANON_KEY=
 SUPABASE_SERVICE_ROLE_KEY=
 
-# Pinata / IPFS
+# Pinata / IPFS Backend
 PINATA_JWT=
 NEXT_PUBLIC_PINATA_GATEWAY=
 
@@ -395,22 +436,24 @@ NEXT_PUBLIC_NETWORK_NAME=Sepolia
 NEXT_PUBLIC_APP_URL=http://localhost:3000
 ```
 
-**Important:**
+### Environment Configuration Notes
 
-- Use your own API credentials.
-- Configure `GEMINI_MODEL` with a currently supported model available to your API key.
-- Generate a cryptographically secure encryption secret.
-- Obtain contract addresses from your actual deployment.
-- Never commit `.env.local` to GitHub.
-- Never expose the Supabase service-role key, Pinata JWT, deployer private key, or encryption secret in frontend code.
+- Obtain Pinata credentials from your Pinata dashboard.
+- Obtain Gemini credentials from Google AI Studio.
+- Configure Supabase using your own project credentials.
+- Generate a cryptographically secure document encryption secret.
+- Use the actual smart contract addresses from your Sepolia deployment.
+- Set `GEMINI_MODEL` to a model currently supported by your Google AI API configuration.
 
-### 4. Start the Development Server
+**Never commit `.env.local` or expose private credentials in frontend code.**
+
+## 4. Start the Development Server
 
 ```bash
 npm run dev
 ```
 
-Open:
+Open the application:
 
 ```text
 http://localhost:3000
@@ -418,11 +461,11 @@ http://localhost:3000
 
 ---
 
-## 🧪 Development & Verification
+# 🧪 Development & Verification
 
-Useful project commands:
+Useful development commands:
 
-### Development
+### Start Development Server
 
 ```bash
 npm run dev
@@ -440,13 +483,20 @@ npx tsc --noEmit
 npm run build
 ```
 
-For smart contract development, use the configured Hardhat scripts in the project.
+For smart contract development, use the configured Hardhat scripts in the repository.
 
-Before deploying, verify the active network, deployment addresses, environment configuration, and contract permissions.
+Before deployment, verify:
+
+- Environment configuration.
+- Active blockchain network.
+- Smart contract addresses.
+- Provider permissions.
+- Consent verification.
+- Encryption configuration.
 
 ---
 
-## 🗺️ Project Roadmap
+# 🗺️ Roadmap
 
 SAATHI is being developed as an evolving healthcare technology platform.
 
@@ -462,68 +512,75 @@ SAATHI is being developed as an evolving healthcare technology platform.
 - [x] Gemini-powered medical report summarization.
 - [x] Ethereum Sepolia smart contract implementation.
 - [x] Consent management architecture.
+- [x] Family and guardian interface.
+- [x] Emergency access interface.
+- [x] Hospital portal interface.
 
-### Further Development
+### Future Development
 
 - [ ] Independent smart contract security audit.
 - [ ] Independent application security assessment.
 - [ ] Production-grade encryption key management.
 - [ ] Comprehensive provider onboarding verification.
-- [ ] Broader healthcare interoperability through FHIR.
-- [ ] Expanded real-world hospital integration.
+- [ ] Broader FHIR healthcare interoperability.
+- [ ] Expanded hospital and diagnostic laboratory integrations.
 - [ ] Production infrastructure and compliance assessment.
 - [ ] Clinical validation of AI-assisted report explanations.
 
 ---
 
-## ⚠️ Disclaimer
+# ⚠️ Disclaimer
 
 SAATHI is a healthcare technology development project.
 
 It is not a replacement for hospitals, healthcare professionals, diagnostic laboratories, or professional medical advice.
 
-Gemini-powered report summaries are intended for educational and informational purposes only.
+Gemini-generated report explanations are intended for educational and informational purposes only.
 
-AI-generated explanations may contain errors or omit clinically relevant information. Patients should always consult qualified healthcare professionals when interpreting medical results or making healthcare decisions.
+AI-generated explanations may contain errors or omit clinically relevant information. Patients should consult qualified healthcare professionals when interpreting medical results or making healthcare decisions.
 
 The current blockchain implementation uses the Ethereum Sepolia testnet and is not a production healthcare network.
 
-Do not upload real patient information to an unverified or development deployment.
+Do not upload real patient information to an unverified development deployment.
 
 ---
 
-## 🤝 Contributing
+# 🤝 Contributing
 
 Contributions, suggestions, and technical feedback are welcome.
 
-If you want to contribute:
+To contribute:
 
 1. Fork the repository.
 2. Create a feature branch.
-3. Make your changes.
+3. Implement your changes.
 4. Test your implementation.
 5. Submit a pull request describing your contribution.
 
-Please avoid submitting API credentials, private keys, encryption secrets, or identifiable patient information.
+Please do not submit API credentials, private keys, encryption secrets, or identifiable patient information.
 
 ---
 
-## 👨‍💻 Project
+# 👨‍💻 Project Information
 
-**SAATHI — Your Health. Your Identity. Your Control.**
+**Project:** SAATHI
 
-Built with the vision of making healthcare information more accessible, secure, and patient-centric.
+**Tagline:** Your Health. Your Identity. Your Control.
 
 **Developer:** Aditya Kr Singh
 
-**Repository:** `adityakumarsingh1682006-debug/Saathi`
+**Repository:** [SAATHI on GitHub](https://github.com/adityakumarsingh1682006-debug/Saathi)
 
-**Blockchain Network:** Ethereum Sepolia
+**Primary Decentralized Backend:** Pinata / IPFS
+
+**Blockchain Network:** Ethereum Sepolia Testnet
+
+**AI Integration:** Google Gemini
 
 ---
 
 <p align="center">
   <strong>Healthcare should be centred around the patient.</strong>
   <br />
-  SAATHI is building towards that future.
+  Building towards a more secure, accessible, and patient-controlled healthcare future.
 </p>
