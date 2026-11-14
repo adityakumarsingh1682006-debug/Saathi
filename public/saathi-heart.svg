@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <rect width="48" height="48" rx="12" fill="#FFFFFF"/>
+  <rect x="2" y="2" width="44" height="44" rx="10" fill="#E6F3EF" stroke="#7BAE9D" stroke-width="1.5"/>
+  <!-- Heart outline -->
+  <path d="M24 38s-11-7.2-11-14.8c0-4.5 3.5-7.7 7.7-7.7 2.4 0 4.8 1.4 5.8 3.5 1-2.1 3.4-3.5 5.8-3.5 4.2 0 7.7 3.2 7.7 7.7 0 7.6-11 14.8-11 14.8z" fill="none" stroke="#176B67" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Pulse Line across Heart -->
+  <path d="M16 23.5h3.2l2-4.5 3.8 9.5 2.8-6.5 1.7 2.5h3.5" fill="none" stroke="#176B67" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

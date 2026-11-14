@@ -1,26 +1,137 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
+@theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: -apple-system, BlinkMacSystemFont, "Geist", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, "Geist Mono", Menlo, Monaco, Consolas, monospace;
+
+  /* MediKey Authentic Palette */
+  --color-deep-teal: #176B67;
+  --color-sage: #7BAE9D;
+  --color-warm-ivory: #F7FAF8;
+  --color-soft-white: #FFFFFF;
+  --color-pale-mint: #E6F3EF;
+  --color-deep-charcoal: #19302F;
+  --color-muted-slate: #667A78;
+  --color-emergency-crimson: #C93C4B;
+  --color-warning-amber: #C98A28;
+
+  --color-primary: #176B67;
+  --color-primary-foreground: #FFFFFF;
+  --color-secondary: #E6F3EF;
+  --color-secondary-foreground: #176B67;
+  --color-muted: #E6F3EF;
+  --color-muted-foreground: #667A78;
+  --color-accent: #E6F3EF;
+  --color-accent-foreground: #176B67;
+  --color-destructive: #C93C4B;
+  --color-card: #FFFFFF;
+  --color-card-foreground: #19302F;
+  --color-popover: #FFFFFF;
+  --color-popover-foreground: #19302F;
+  --color-border: rgba(123, 174, 157, 0.25);
+  --color-input: rgba(123, 174, 157, 0.35);
+  --color-ring: #176B67;
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --background: #F7FAF8;
+  --foreground: #19302F;
+  --card: #FFFFFF;
+  --card-foreground: #19302F;
+  --popover: #FFFFFF;
+  --popover-foreground: #19302F;
+  --primary: #176B67;
+  --primary-foreground: #FFFFFF;
+  --secondary: #E6F3EF;
+  --secondary-foreground: #176B67;
+  --muted: #E6F3EF;
+  --muted-foreground: #667A78;
+  --accent: #E6F3EF;
+  --accent-foreground: #176B67;
+  --destructive: #C93C4B;
+  --border: rgba(123, 174, 157, 0.25);
+  --input: rgba(123, 174, 157, 0.35);
+  --ring: #176B67;
+  --radius: 0.875rem;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #F7FAF8;
+  color: #19302F;
+  font-family: -apple-system, BlinkMacSystemFont, "Geist", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Premium Light Liquid Glass & Frosted Surfaces */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(123, 174, 157, 0.28);
+  box-shadow: 0 12px 36px -10px rgba(23, 107, 103, 0.08), 0 2px 8px -2px rgba(23, 107, 103, 0.03);
+}
+
+.glass-card-subtle {
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(123, 174, 157, 0.2);
+  box-shadow: 0 6px 20px -4px rgba(23, 107, 103, 0.04);
+}
+
+.glass-card-hover {
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card-hover:hover {
+  background: rgba(255, 255, 255, 0.95);
+  border-color: rgba(23, 107, 103, 0.35);
+  transform: translateY(-2px);
+  box-shadow: 0 14px 34px -8px rgba(23, 107, 103, 0.12);
+}
+
+/* Subtle, peaceful ambient lighting */
+.liquid-glow-teal {
+  background: radial-gradient(circle at center, rgba(23, 107, 103, 0.08) 0%, rgba(23, 107, 103, 0) 70%);
+}
+
+.liquid-glow-sage {
+  background: radial-gradient(circle at center, rgba(123, 174, 157, 0.12) 0%, rgba(123, 174, 157, 0) 70%);
+}
+
+.liquid-glow-mint {
+  background: radial-gradient(circle at center, rgba(230, 243, 239, 0.5) 0%, rgba(230, 243, 239, 0) 70%);
+}
+
+/* 3D Transform Utilities for Cards */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Refined peaceful scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(123, 174, 157, 0.35);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(23, 107, 103, 0.55);
 }
